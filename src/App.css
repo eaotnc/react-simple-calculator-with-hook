@@ -23,6 +23,42 @@
   color: #61dafb;
 }
 
+.calculator{
+  display: flex;
+  flex-wrap: wrap;
+  width: 337px;
+  height: 325px;
+  background: #5a5a5a;
+}
+.output{
+  width: 215px;
+  height: 47px;
+  margin:auto;
+  border-radius: 13px;
+  border: 4px solid #7b7b7b;
+  font-size: 22px;
+}
+.numpad{
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+  align-content: start;
+
+}
+.operator{
+  width:77px;
+}
+.button{
+  width: 71px;
+  height: 50px;
+  background: #fff;
+  margin: 5px;
+  border-radius: 13px;
+  border: 4px solid #7b7b7b;
+  font-size: 22px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
